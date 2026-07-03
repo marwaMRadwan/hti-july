@@ -1,0 +1,77 @@
+/* external */
+/* h2{
+    color: blue;
+} */
+
+/* #one{
+    color: green;
+}
+
+h2{
+    color: red;
+}
+
+.x{
+    color: blue;
+} */
+
+/* div { */
+/* color: chocolate; */
+/* hex, rgb, rgba, color name, hsl */
+/* color: #ea7e0f; */
+/* color: rgb(255, 0, 0); */
+/* left right center justify */
+/* text-align: justify;
+    text-align-last: center; */
+/* none, lowercase, uppercase, capitalize */
+/* text-transform: capitalize;
+    letter-spacing: 1px;
+    text-indent: 10px;
+    line-height: 2;
+    word-spacing: 5px; */
+/* text-align: center;
+}
+div h2{ */
+/* direction: rtl; */
+/* color: white;
+    text-align: left;
+    text-shadow: 0px 0px 5px red; */
+/* text-decoration-line: underline; */
+/* text-decoration-line: underline overline line-througt */
+/* text-decoration: overline dotted; */
+/* text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px; */
+/* text-decoration: double underline red 3px;
+} */
+
+
+/* div { */
+/* background-color: red; */
+/* height: fit-content; */
+/* min-width max-width width min-height max-height height */
+/* line-height: 25px;
+    min-height: 50px;
+    max-height: 100px;
+    width:40%; */
+/* height: 25rem; */
+/* background-color: red;
+    background-image: url(../images/smile_face.png); */
+/* background-size: contain; */
+/* background-repeat: no-repeat;
+    background-position: center bottom;
+
+} */
+
+
+body {
+    height: 3000px;
+}
+
+.bg{
+    background-image: url(../images/background_image4.jpg);
+    background-size: cover;
+    height: 20rem;
+    background-attachment: fixed;
+}
