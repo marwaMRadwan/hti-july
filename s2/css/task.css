@@ -1,0 +1,39 @@
+body {
+    /* background-color: black; */
+    /* padding: 0;
+    margin: 0; */
+  font-family: "Montenegrin Gothic One", serif;
+}
+
+.txt {
+    letter-spacing: 0.5rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 30%;
+    font-size: 1.3rem;
+    text-align: center;
+    /* line-height: 0.5; */
+}
+
+.border {
+    background-color: #29a59a;
+    height: 1rem;
+    width: 30%;
+}
+
+section {
+    height: 25rem;
+    background-color: red;
+    background-image: url(../images/smile_face.png);
+    background-repeat: no-repeat;
+    background-position: 70% 100%;
+    /* background: color image position size repeat origin clip attach; */
+}
+
+p{
+    font-size:200%;
+    font-style: italic;
+    font-weight: 300;
+    font-variant: small-caps;
+}
