@@ -1,0 +1,19 @@
+*** new rep
+git init
+git add .
+git commit -m "msg"
+git add origin repo_link
+git push origin master
+
+** old repo add updates
+git init
+git add .
+git commit -m "msg"
+git push origin master
+
+**download old repo
+git clone repo_link
+
+** old repo download upades
+instde folder 
+git pull
