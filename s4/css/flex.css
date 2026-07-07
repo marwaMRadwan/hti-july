@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* wrap wrap-reverse nowrap */
+    flex-wrap: wrap;
+    /* space-between space-evenly space-around flex-start flex-end center*/
+    justify-content: space-between;
+    /* center   flex-start start stretch end flex-end baseline */
+    align-items: stretch;
+    background-color: bisque;
+}
+
+.card {
+    width: calc((100% / 3) - 1%);
+    background-color: aquamarine;
+    border: solid 1px black;
+    margin-top: 2%;
+    text-align: center;
+    padding: 4%;
+}

@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+:root {
+    --dark-color: #3B3F5C;
+    --muted-color: rgba(59, 63, 92, 0.5);
+    --purple: #5D5FEF;
+}
+
+/* normalize */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* end normlize */
+/* main classes */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.p-3 {
+    padding: 3%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 3%
+}
+
+.text-muted {
+    color: var(--muted-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+/* end main classes */
+
+/* card */
+.card {
+    box-shadow: 0 0 0.1rem #E5E5E5;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .content * {
+    margin-bottom: 3%;
+}
+
+.card .content a {
+    background-color: var(--purple);
+    width: 100%;
+    color: white;
+    padding: 5%
+}
+
+
+/* display */
+/* inline */
+
+/* .myImg {
+    width: 20rem;
+    display: block
+}
+
+.myP {
+    width: 30%;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* background-color: antiquewhite;
+    margin-top: 5%; */
+    /* padding-top: 5%; */
+/* }  */
+
