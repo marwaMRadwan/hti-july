@@ -1,0 +1,264 @@
+/* div and has x as a class*/
+/* #hero div.x{ 
+    background-color: red;
+    height: 10rem;
+    margin: 2%;
+} */
+/* direct child*/
+/* #hero > p{
+    background-color: red;
+    height: 10rem;
+    margin: 2%;
+} */
+/* #hero{
+    background-color: brown;
+    height: 5rem;
+    margin: 2%;
+}
+ul{
+    background-color: aqua;
+    margin:2%;
+    height: 5rem;
+} */
+/*first next ul */
+/* #hero + ul{
+    background-color: aquamarine;
+} */
+/*all next ul*/
+/* #hero ~ ul{
+    background-color: bisque;
+} */
+*{
+    box-sizing: border-box;
+}
+/*attribute value*/
+/* input[type="text"]{
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+input[type="number"]{
+    border: 1px solid red;
+    width: 90%;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 2%;
+    outline: 1px solid green;
+} */
+/*starts with*/
+/* a[href^="https"]{
+    color: red;
+    font-size: 1.3rem;
+    text-decoration: none;
+} */
+/*end with*/
+/* img[src$=".png"]{
+    height: 50px;
+    width: 50px;
+} */
+/*contain*/
+/* a[href*="t"]{
+    color:blue;
+} */
+/* a:visited{
+    color: black;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: red;
+}
+input:focus{
+
+} */
+/* 
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+}
+li:nth-child(even){
+    color: green;
+}
+
+input:checked{
+    accent-color: red;
+} */
+
+
+/* p{
+    width:30%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+p::first-line{
+    font-size: 1.7rem;
+}
+p::first-letter{
+    font-size: 2rem;
+}
+
+::selection{
+    background-color: yellow;
+} */
+
+/* section > div.content a:hover{
+    color: aquamarine;
+} */
+ /* p{}
+ #x{}
+ .z{}
+ nav a{}
+ div > img{}
+ li:first-child{}
+ tr:first-child{}
+ tr:nth-child(3){}
+ input:required{}
+ button:disabled{}
+ a[href^="http"]{} */
+
+ /* ul{
+    list-style-type: none;
+ }
+ li::before{
+    content:"test - "
+ } 
+ li::after {
+    content:"- test "
+ } */
+
+/* section{
+    background-color: bisque;
+    height: 20rem;
+} */
+/* section img{
+    height: 100%;
+    width: 50%; */
+    /* transition: all 2s ease 0.5s; */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0.5s; */
+/* }
+section:hover img{
+    height: 50%;
+    width: 75%;
+} */
+
+/* div{
+    width: 50%;
+    margin:auto;
+    height: 100%;
+}
+img{
+    height:50%;
+    aspect-ratio: 1/1;
+    border-radius: 0;
+    transition: all 2s;
+}
+section:hover img{
+    height:75%;
+    border-radius: 50%;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* a{
+    text-decoration: none;
+    padding: 0 3%;
+}
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1%;
+}
+
+li hr{
+    height: 0.5rem;
+    background-color: black;
+}
+hr.start{
+    transform: translateY(-30px);
+    transition: all 1s;
+}
+hr.end{
+    transform: translateY(30px);
+    transition: all 1s;
+}
+li:hover hr{
+    transform: translateY(0px);
+}
+ */
+
+/* div{ */
+    /* width: 10rem;
+    height: 10rem;
+    background-color: red;
+    margin: 5% auto; */
+    /* transform: translate(5%, 10%); */
+    /* transform: translateX(5%) ; */
+    /* transform: translateY(5px) */
+    /* transform: scale(0.5); */
+    /* transform: rotate(0deg) scale(1); */
+    /* transform: skew(30deg);
+    transition: all 1s; */
+/* }
+
+div:hover{
+    /* transform: rotate(90deg) scale(2); */
+/* } */
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.parent{
+    width: 20%;
+    margin: 2%;
+    aspect-ratio: 1/1;
+    background-color: antiquewhite;
+}
+.child{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 42, 42, 0.251);
+    transition: all 1s;
+}
+.parent:nth-child(1):hover .child{
+    transform: translateX(30px);
+}
+.parent:nth-child(2):hover .child{
+    transform: translateY(-30px);
+}
+.parent:nth-child(3):hover .child{
+    transform: translate(30px, 30px);
+}
+.parent:nth-child(4):hover .child{
+    transform: scale(1.2);
+}
+.parent:nth-child(5):hover .child{
+    transform: skew(30deg, 30deg);
+}
